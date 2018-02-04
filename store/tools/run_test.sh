@@ -16,14 +16,14 @@ trap '{
 }' INT
 
 # Paths to source code and logfiles.
-srcdir="/homes/sys/naveenks/Research/Tapir"
-logdir="/biggerraid/users/naveenks/tapir"
+srcdir="/home/ubuntu/tapir"
+logdir="/tmp/logs"
 
 # Machines on which replicas are running.
-replicas=("breakout" "pitfall" "qbert")
+replicas=("ip-172-31-19-90" "ip-172-31-25-250" "ip-172-31-23-244")
 
 # Machines on which clients are running.
-clients=("spyhunter")
+clients=("ip-172-31-19-90")
 
 client="benchClient"    # Which client (benchClient, retwisClient, etc)
 store="tapirstore"      # Which store (strongstore, weakstore, tapirstore)

@@ -1,0 +1,12 @@
+.obj
+libtapir/libtapir.so
+lockserver/client
+lockserver/server
+store/benchmark/benchClient
+store/benchmark/retwisClient
+store/benchmark/terminalClient
+store/strongstore/server
+store/tapirstore/server
+store/tools/keys
+store/weakstore/server
+timeserver/timeserver
